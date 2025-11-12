@@ -5,7 +5,7 @@ on:
         branches: [ ci, master, latest, 3.3-stable ]
 permissions:
     statuses: write
-    contents: read
+    contents: read 
 
 jobs:
     build-linux-x11-clang:
